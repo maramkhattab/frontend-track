@@ -1,0 +1,55 @@
+<html>
+
+<head>
+
+    <title>Checkout</title>
+    <link rel="stylesheet" href="checkout.css">
+    <script type="text/javascript">
+        function calculateTotal() {
+            console.log("hi")
+            alert("Your total is LE 350")
+        }
+    </script>
+
+</head>
+
+<body>
+    <div class="checkoutContainer">
+        <h1>
+            Checkout
+        </h1>
+        <div class="itemContainer">
+            <div class="grid-container">
+                <div class="item">
+                    Pizza
+                </div>
+
+                <div class="item-quantity">
+                    Qty: x1
+                </div>
+                <div class="item-price">
+                    LE 200
+                </div>
+
+            </div>
+        </div>
+        <div class="itemContainer">
+            <div class="grid-container">
+                <div class="item">
+                    Burger
+                </div>
+
+                <div class="item-quantity">
+                    Qty:x1
+                </div>
+                <div class="item-price">
+                    LE 150
+                </div>
+
+            </div>
+        </div>
+        <button class="checkout-btn" onclick="calculateTotal()"> Checkout</button>
+    </div>
+</body>
+
+</html>
